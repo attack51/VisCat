@@ -22,4 +22,4 @@ x86のSIMD命令（SSE Intrinsics）を利用したC/ C ++ベースOcclusion Cul
 
 現在は、Windows OSでVisual Studioだけでビルド可能。
 
-今後cmakeでプラットフォームの制約をなくして、ARM NEON命令を使用して、x86/arm二つcpuで駆動可能にすることが目標
+今後cmakeでプラットフォームの制約をなくして、ARM NEON命令を使用して、x86/arm二つのcpuで起動可能にすることが目標
