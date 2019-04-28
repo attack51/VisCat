@@ -1,0 +1,22 @@
+﻿#pragma once
+
+enum VISCAT_CullMode : unsigned int
+{
+	NONE=1,
+	CW=2,
+	CCW=3,
+};
+
+enum VISCAT_Resolution : unsigned char
+{
+	VISCAT_W32H16=4,
+	VISCAT_W64H32=5,
+	VISCAT_W128H64=6,
+	VISCAT_W256H128=7,
+	VISCAT_W512H256=8,
+};
+
+
+#define TILE_BUFFER_WIDTH 16
+#define TILE_BUFFER_SIZE (TILE_BUFFER_WIDTH*TILE_BUFFER_WIDTH)
+#define TILE_BUFFER_SIZE_PACK4 (TILE_BUFFER_WIDTH*TILE_BUFFER_WIDTH/4)

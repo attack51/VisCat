@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{0D26C476-1F8F-475A-8382-FD520CCE21D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VisCatLib", "VisCatLib\VisCatLib.vcxproj", "{42B1DC0B-AE1D-44CE-B181-50531341C348}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApp", "ConsoleApp\ConsoleApp.vcxproj", "{65BA0794-ECCC-4F3C-B2C0-9B262DE0A5DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42B1DC0B-AE1D-44CE-B181-50531341C348} = {42B1DC0B-AE1D-44CE-B181-50531341C348}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D26C476-1F8F-475A-8382-FD520CCE21D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D26C476-1F8F-475A-8382-FD520CCE21D5}.Debug|Win32.Build.0 = Debug|Win32
+		{0D26C476-1F8F-475A-8382-FD520CCE21D5}.Release|Win32.ActiveCfg = Release|Win32
+		{0D26C476-1F8F-475A-8382-FD520CCE21D5}.Release|Win32.Build.0 = Release|Win32
+		{42B1DC0B-AE1D-44CE-B181-50531341C348}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42B1DC0B-AE1D-44CE-B181-50531341C348}.Debug|Win32.Build.0 = Debug|Win32
+		{42B1DC0B-AE1D-44CE-B181-50531341C348}.Release|Win32.ActiveCfg = Release|Win32
+		{42B1DC0B-AE1D-44CE-B181-50531341C348}.Release|Win32.Build.0 = Release|Win32
+		{65BA0794-ECCC-4F3C-B2C0-9B262DE0A5DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65BA0794-ECCC-4F3C-B2C0-9B262DE0A5DB}.Debug|Win32.Build.0 = Debug|Win32
+		{65BA0794-ECCC-4F3C-B2C0-9B262DE0A5DB}.Release|Win32.ActiveCfg = Release|Win32
+		{65BA0794-ECCC-4F3C-B2C0-9B262DE0A5DB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
