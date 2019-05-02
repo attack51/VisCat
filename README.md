@@ -1,4 +1,5 @@
-# VisCat
+# VisCAT
+VisCAT means Visibility Culling Acceleration Tech
 
 ========================================== KOR ================================
 
